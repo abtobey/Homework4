@@ -1,0 +1,103 @@
+
+body{
+    margin:auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .quiz{
+    margin:auto;
+    text-align:center;
+  }
+  li {
+    height: 50px;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align:center;
+    border-radius: 15px;
+  }
+
+  li:hover{
+      background-color:red;
+  }
+h2{
+    background-color: blue;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    margin:auto;
+    text-align:center;
+    border-radius: 20px;
+
+}
+#submitHigh{
+  margin:auto;
+  width:40%;
+  padding:20px;
+}
+h1{
+    background-color:#CF5300;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    margin:auto;
+    text-align:center;
+    border-radius: 20px;
+
+}
+h3, h4{
+    color:red;
+    width: 40%;
+    padding: 20px;
+    font-size: 5vh;
+    margin:auto;
+    text-align:center;
+
+
+}
+.container{
+  background-color: #eee;
+  border-radius: 50px;
+  box-shadow: 5px 10px 8px #888888;
+}
+  .highScores{
+    height: 100px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1px;
+    background-color: Green;
+    color: white;
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align:center;
+    tab-size: 8;
+    border-radius: 20px;
+  }
+  button {
+    cursor: pointer;
+    background-color: #CF5300;
+  }
+  
+  body{
+      margin-left: 10%;
+  }@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    h1, h2, h3, li{
+        width: 80%;
+    }
+    .highScores{
+      font-size: 1.2em;
+    }
+  }
